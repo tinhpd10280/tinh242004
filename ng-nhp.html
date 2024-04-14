@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./ng-nhp.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Aclonica:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Actor:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Amiko:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Anton:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lalezar:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="ng-nhp">
+      <div class="ng-nhp-child"></div>
+      <div class="nguyenkim" id="nGUYENKIMText">NGUYENKIM</div>
+      <div class="ng-nhp-item"></div>
+      <div class="ng-nhp1">ĐĂNG NHẬP</div>
+      <div class="ng-k" id="nGKText">ĐĂNG KÝ</div>
+      <div class="ng-nhp-inner"></div>
+      <div class="rectangle-div"></div>
+      <div class="ng-nhp-child1"></div>
+      <div class="nhp-mt-khu">Nhập mật khẩu</div>
+      <div class="emails-in-thoi">Email/Số điện thoại</div>
+      <div class="qun-mt-khu">Quên mật khẩu</div>
+      <div class="ng-nhp-vi">Đăng nhập với SMS</div>
+      <div class="ng-nhp-child2"></div>
+      <div class="ng-nhp-child3"></div>
+      <div class="ng-nhp-child4"></div>
+      <div class="ng-nhp2">ĐĂNG NHẬP</div>
+      <div class="line-div"></div>
+      <div class="ng-nhp-child5"></div>
+      <div class="ng-nhp-child6"></div>
+      <div class="ng-nhp-child7"></div>
+      <div class="hoc">Hoặc</div>
+      <img class="icon-fb-1" alt="" src="./public/iconfb-1.svg" />
+
+      <img class="icon-gg-1" alt="" src="./public/icongg-1@2x.png" />
+
+      <div class="ng-nhp-bng">ĐĂNG NHẬP BẰNG FACEBOOK</div>
+      <div class="ng-nhp-bng1">ĐĂNG NHẬP BẰNG GOOGLE</div>
+    </div>
+
+    <script>
+      var nGUYENKIMText = document.getElementById("nGUYENKIMText");
+      if (nGUYENKIMText) {
+        nGUYENKIMText.addEventListener("click", function (e) {
+          window.location.href = "./ch.html";
+        });
+      }
+      
+      var nGKText = document.getElementById("nGKText");
+      if (nGKText) {
+        nGKText.addEventListener("click", function (e) {
+          window.location.href = "./ng-k.html";
+        });
+      }
+      </script>
+  </body>
+</html>

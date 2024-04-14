@@ -1,0 +1,157 @@
+.ng-k-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-crimson-100);
+  width: 1440px;
+  height: 91px;
+}
+.ng-k-item {
+  position: absolute;
+  top: calc(50% - 389px);
+  left: calc(50% - 330px);
+  border-radius: var(--br-6xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 660px;
+  height: 657px;
+}
+.ng-k-child1,
+.ng-k-inner {
+  position: absolute;
+  width: 555px;
+}
+.ng-k-inner {
+  top: 270px;
+  left: calc(50% - 295px);
+  border-radius: var(--br-8xs);
+  background-color: var(--color-whitesmoke-100);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  height: 44px;
+}
+.ng-k-child1 {
+  top: 586px;
+}
+.ng-k-child1,
+.ng-k-child2,
+.ng-k-child3 {
+  left: calc(50% - 295px);
+  border-radius: var(--br-8xs);
+  background-color: var(--color-whitesmoke-100);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  height: 44px;
+}
+.ng-k-child2 {
+  position: absolute;
+  top: 507px;
+  width: 555px;
+}
+.ng-k-child3 {
+  top: 428px;
+}
+.ng-k-child3,
+.ng-k-child4,
+.ng-k-child5 {
+  position: absolute;
+  width: 555px;
+}
+.ng-k-child4 {
+  top: 349px;
+  left: calc(50% - 295px);
+  border-radius: var(--br-8xs);
+  background-color: var(--color-whitesmoke-100);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  height: 44px;
+}
+.ng-k-child5 {
+  top: 658px;
+  left: 435px;
+  border-radius: var(--br-6xs);
+  background-color: var(--color-red-200);
+  height: 64px;
+}
+.nguyenkim1 {
+  position: absolute;
+  top: 31px;
+  left: 1117px;
+  font-size: var(--font-size-17xl);
+  font-family: var(--font-aclonica);
+  color: var(--color-white);
+  display: inline-block;
+  width: 310px;
+  height: 30px;
+  cursor: pointer;
+}
+.ng-k2,
+.ng-nhp3 {
+  position: absolute;
+  top: 209px;
+  font-size: var(--font-size-xl);
+}
+.ng-nhp3 {
+  left: 449px;
+  color: var(--color-black);
+  opacity: 0.8;
+  cursor: pointer;
+}
+.ng-k2 {
+  left: 898px;
+  color: var(--color-red-200);
+}
+.ng-k-child6 {
+  position: absolute;
+  top: 232.5px;
+  left: 897.5px;
+  border-top: 1px solid var(--color-red-200);
+  box-sizing: border-box;
+  width: 84px;
+  height: 1px;
+}
+.email,
+.s-in-thoi {
+  position: absolute;
+  top: 361px;
+  left: 449px;
+}
+.email {
+  top: 441px;
+}
+.h-v-tn,
+.mt-khu,
+.ng-k3,
+.nhp-li-mt {
+  position: absolute;
+  top: 281px;
+  left: 449px;
+}
+.mt-khu,
+.ng-k3,
+.nhp-li-mt {
+  top: 521px;
+}
+.ng-k3,
+.nhp-li-mt {
+  top: 601px;
+}
+.ng-k3 {
+  top: 678px;
+  left: 661px;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+}
+.ng-k1 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-snow);
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-dimgray);
+  font-family: var(--font-actor);
+}

@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-actor: Actor;
+  --font-aclonica: Aclonica;
+  --font-inter: Inter;
+  --font-amiko: Amiko;
+  --font-lalezar: Lalezar;
+  --font-anton: Anton;
+
+  /* font sizes */
+  --font-size-xl: 20px;
+  --font-size-5xl: 24px;
+  --font-size-base: 16px;
+  --font-size-lg: 18px;
+  --font-size-17xl: 36px;
+  --font-size-xs: 12px;
+  --font-size-mini: 15px;
+  --font-size-sm: 14px;
+  --font-size-smi: 13px;
+  --font-size-2xs: 11px;
+  --font-size-xs-5: 11.5px;
+  --font-size-3xs: 10px;
+  --font-size-9xl: 28px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-snow: #fdf9f9;
+  --color-black: #000;
+  --color-darkslateblue: #283b7d;
+  --color-red-100: #ff1313;
+  --color-red-200: #ff0000;
+  --color-red-300: #f70000;
+  --color-red-400: #f30000;
+  --color-dimgray: #7a7171;
+  --color-whitesmoke-100: #f9f7f7;
+  --color-crimson-100: #ed2a2a;
+  --color-gainsboro-100: #d9d9d9;
+  --color-limegreen: #3ad854;
+  --color-mistyrose: #fddede;
+  --color-tomato: #f72f2f;
+
+  /* Border radiuses */
+  --br-6xs: 7px;
+  --br-8xs: 5px;
+  --br-3xs: 10px;
+  --br-5xs: 8px;
+  --br-9xs: 4px;
+  --br-xl: 20px;
+}
